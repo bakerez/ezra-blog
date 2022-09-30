@@ -1,0 +1,141 @@
+/* Fonts */
+/* I'm using fonts from the google fonts website */
+/* I did not make them, but they are open source from the internet */
+
+@font-face {
+    font-family: Dosis;
+    font-weight: 300;
+    src: url(Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Lora;
+    src: url(Lora/Lora-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Lora-Italic;
+    src: url(Lora/Lora-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Dirt;
+    src: url(Rubik_Dirt/RubikDirt-Regular.ttf);
+}
+    
+
+/* Took code from here https://stackoverflow.com/questions/20494024/html-css-header-image-has-a-margin-and-i-cant-see-any-reason-why */
+
+html {
+    color: white;
+    font-family: Lora;
+    font-size: 19px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(28, 41, 41);
+}
+
+/* Navbar */
+nav.bar {
+    background-color: #d73f09;
+    width: 100%;
+    /* height: 50px; */
+}
+
+/* Option links */
+a.navlink {
+    font-family: Dosis;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+    /*float: left; */
+    display: inline-block;
+}
+
+a.navlink:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+/* Main body text */
+div.main {
+    margin-left:  5%;
+    margin-right: 5%;
+}
+
+div.image-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.portrait-img {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.image {
+    width: 300px;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* color: black; */
+}
+
+.cat-photo {
+    width: 100%;
+    height: auto;
+}
+
+.cat-caption {
+    float: bottom;
+}
+
+/* Text stylings */
+h1 {
+    color: 'white';
+    font-family: Rubik-Dirt;
+    font-size: 50px;
+    margin: 0;
+    margin-left: 15px;
+}
+
+h2 {
+    color: white;
+    font-family: Dosis;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: white;
+    font-family: Dosis;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+ul {
+    color: white;
+    font-family: Lora;
+    font-size: 19px;
+}
+
+a {
+    color: lightskyblue;
+}
+
+strong {
+    font-weight: 700;
+}
